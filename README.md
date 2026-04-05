@@ -166,25 +166,25 @@ file.upload-dir=uploads/user/profile
 
 | Method | Endpoint | Description | Auth Required |
 |---|---|---|---|
-| GET | `/api/user/profile` | Get logged-in user profile | ✅ Yes |
-| PUT | `/api/user/profile` | Update user details | ✅ Yes |
-| POST | `/api/user/profile/picture` | Upload profile picture | ✅ Yes |
+| GET | `/api/user/profile` | Get logged-in user profile | Yes |
+| PUT | `/api/user/profile` | Update user details | Yes |
+| POST | `/api/user/profile/picture` | Upload profile picture | Yes |
 
 ### 💳 Transactions
 
 | Method | Endpoint | Description | Auth Required |
 |---|---|---|---|
-| GET | `/api/transactions` | Get all transactions | ✅ Yes |
-| POST | `/api/transactions` | Add a new transaction | ✅ Yes |
-| PUT | `/api/transactions/{id}` | Update a transaction | ✅ Yes |
-| DELETE | `/api/transactions/{id}` | Delete a transaction | ✅ Yes |
+| GET | `/api/transactions` | Get all transactions | Yes |
+| POST | `/api/transactions` | Add a new transaction | Yes |
+| PUT | `/api/transactions/{id}` | Update a transaction | Yes |
+| DELETE | `/api/transactions/{id}` | Delete a transaction | Yes |
 
 ### 📊 Dashboard
 
 | Method | Endpoint | Description | Auth Required |
 |---|---|---|---|
-| GET | `/api/dashboard/summary` | Get income/expense summary | ✅ Yes |
-| GET | `/api/dashboard/monthly` | Get monthly breakdown | ✅ Yes |
+| GET | `/api/dashboard/summary` | Get income/expense summary | Yes |
+| GET | `/api/dashboard/monthly` | Get monthly breakdown | Yes |
 
 > All protected endpoints require the header: `Authorization: Bearer <your_jwt_token>`
 
