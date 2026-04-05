@@ -1,6 +1,6 @@
 # 💰 Finance Dashboard — Backend
 
-A robust, production-ready **Expense Tracker & Finance Dashboard** REST API built with **Spring Boot 3.2.1** and **Java 21**. Supports secure JWT authentication, full expense/income management, email notifications, and a clean layered architecture designed for seamless frontend integration.
+A robust, production-ready **Finance Dashboard** REST API built with **Spring Boot 3.2.1** and **Java 21**. Supports secure JWT authentication, full expense/income management, email notifications, and a clean layered architecture designed for seamless frontend integration.
 
 ---
 
@@ -56,14 +56,14 @@ A robust, production-ready **Expense Tracker & Finance Dashboard** REST API buil
 Finance_Dashboard_Backend/
 ├── src/
 │   └── main/
-│       ├── java/com/fullStack/expenseTracker/
+│       ├── java/com/finance_dashboard/backend/
 │       │   ├── controllers/       # REST controllers
 │       │   ├── services/          # Business logic layer
 │       │   ├── repositories/      # Spring Data JPA repositories
 │       │   ├── models/            # JPA entity classes
 │       │   ├── dto/               # Request/Response DTOs
 │       │   ├── security/          # JWT filter, SecurityConfig
-│       │   └── ExpenseTrackerApplication.java
+│       │   └── finance_dashboard_backend.java
 │       └── resources/
 │           └── application.properties
 ├── uploads/
@@ -240,14 +240,5 @@ Contributions and bug reports are welcome!
 
 ---
 
-## 👩‍💻 Author
-
-**Anshika Kumrawat**
-B.Tech Computer Science | Jawaharlal Institute of Technology
-Java Full Stack Developer Intern @ HALVIX Technologies
-
-[![GitHub](https://img.shields.io/badge/GitHub-AnshikaKumrawat-181717?logo=github&style=flat-square)](https://github.com/AnshikaKumrawat)
-
----
 
 > ⭐ If you found this project useful, please give it a star!
