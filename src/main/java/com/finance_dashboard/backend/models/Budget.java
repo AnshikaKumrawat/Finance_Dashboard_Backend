@@ -1,4 +1,4 @@
-package com.fullStack.expenseTracker.models;
+package com.finance_dashboard.backend.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
