@@ -1,4 +1,4 @@
-package com.fullStack.expenseTracker;
+package com.finance_dashboard.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
