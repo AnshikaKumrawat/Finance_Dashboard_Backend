@@ -1,4 +1,4 @@
-package com.fullStack.expenseTracker.enums;
+package com.finance_dashboard.backend.enums;
 
 
 public enum ERole {
