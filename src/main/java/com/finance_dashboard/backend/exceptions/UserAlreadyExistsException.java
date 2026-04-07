@@ -1,4 +1,4 @@
-package com.fullStack.expenseTracker.exceptions;
+package com.finance_dashboard.backend.exceptions;
 
 public class UserAlreadyExistsException extends Exception{
 
