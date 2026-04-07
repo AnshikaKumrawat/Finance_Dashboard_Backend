@@ -1,4 +1,4 @@
-package com.fullStack.expenseTracker.dto.requests;
+package com.finance_dashboard.backend.dto.requests;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
